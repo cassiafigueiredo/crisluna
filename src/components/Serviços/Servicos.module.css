@@ -7,7 +7,7 @@
 .meusServicos {
     padding-top: 70px;
     font-family: var(--fontenavbar);
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .imgServicos {
@@ -16,29 +16,50 @@
     height: 200px;
 }
 .h2SemP {
-    font-family: var(--fontenavbar);
+    font-size: 50px;
+    font-family: var(--fontedestaque);
+    font-weight: bold;
     color: var(--rosapink);
+    margin-top: 100px;
+}
+
+.precoRosa {
     margin-top: 30px;
+    font-family:var(--fontetitulo);
+    font-weight: bold;
+    color: var(--rosapink);
+    font-size: 35px;
 }
 
 
 .h2ComP {
+    font-family: var(--fontedestaque);
     padding-top: 10px;
-    font-family: var(--fontenavbar);
     color: white;
+    font-weight: bold;
 }
 
 .h2ComP2 {
+    font-family: var(--fontedestaque);
     padding-top: 8px;
-    font-family: var(--fontenavbar);
     color: white;
+    font-weight: bold;
 }
-.pServicos {
+
+.precoBranco {
+    margin-top: 20px;
+    font-family: var(--fontetitulo);
+    font-weight: bold;
+    font-size: 35px;
+
+}
+
+.paragrafoRosa {
     width: 300px;
 }
 
 .divTxtColorido {
-    height: 400px;
+    height: 350px;
     padding: 15px;
     color: white;
     margin-top: 50px;
@@ -47,7 +68,7 @@
 }
 
 .divTxtColorido2 {
-    height: 400px;
+    height: 350px;
     padding: 10px;
     padding-left: 17px;
     padding-right: 17px;

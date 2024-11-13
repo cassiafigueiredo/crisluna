@@ -1,0 +1,12 @@
+.h1Diferenciais {
+    background-color: var(--rosapink);
+    font-family: var(--fontenavbar);
+    padding-top: 70px;
+    font-size: 70px;
+    margin: 0;
+}
+
+.diferenciaisContainer {
+    background-color: var(--rosapink);
+    height: 100vh;
+}
