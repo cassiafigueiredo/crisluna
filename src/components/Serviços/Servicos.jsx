@@ -3,37 +3,39 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
 function Servicos(){
     return (
-        <>
+        <>g-col-6 
         <div> 
             <h1 className={` m-5 ${styles.meusServicos}`}>
                 Meus Serviços
             </h1>
         </div>
-        <div className="grid bg-white m-5 p-5">
-            <div className='row row-cols-2'>
-                <div className="g-col-6 mt-5">
-                    <img className={styles.imgServicos} src="./src/assets/images/manicure.png" alt="manicure icone" />
-                    <h2 className={styles.h2SemP}>
-                        Manicure
-                    </h2>
-                    <p className={styles.precoRosa}>
-                        RS$35,00
-                    </p>
-                </div>
-                <div className="g-col-6 mt-5 ">
-                    <img className={styles.imgServicos} src="./src/assets/images/pedicure.png" alt="pedicure icone" />
-                    <h2 className={styles.h2SemP}>
-                        Pedicure
-                    </h2>
-                    <p className={styles.precoRosa}>
-                        RS$35,00
-                    </p>
-                </div>
+        <div className="grid  m-5 p-5">
+            <div className='row'>
+                
+                    <div className="col-6  mt-5">
+                        <img className={styles.imgServicos} src="./src/assets/images/manicure.png" alt="manicure icone" />
+                        <h2 className={styles.h2SemP}>
+                            Manicure
+                        </h2>
+                        <p className={styles.precoRosa}>
+                            R$35,00
+                        </p>
+                    </div>
+                    <div className="col-6  mt-5 ">
+                        <img className={styles.imgServicos} src="./src/assets/images/pedicure.png" alt="pedicure icone" />
+                        <h2 className={styles.h2SemP}>
+                            Pedicure
+                        </h2>
+                        <p className={styles.precoRosa}>
+                            R$35,00
+                        </p>
+                    </div>
+                
             </div>
         </div>
         <div className="grid m-5">
             <div className='row row-cols-2'>
-                <div className="g-col-6 mt-5 d-flex flex-column align-items-center text-center">
+                <div className="g-col-6 g-col-md-12 mt-5 d-flex flex-column align-items-center text-center">
                     <img className={styles.imgServicos} src="./src/assets/images/spadospes.png" alt="manicure icone" />
                      <div className={`d-flex flex-column align-items-center ${styles.divTxtColorido}`}>
                         <h2 className={styles.h2ComP}>
@@ -47,7 +49,7 @@ function Servicos(){
                             </p>
                     </div>
                 </div>
-                <div className="g-col-6 mt-5 d-flex flex-column align-items-center  text-center">
+                <div className="g-col-6 g-col-md-12 mt-5 d-flex flex-column align-items-center  text-center">
                     <img className={styles.imgServicos} src="./src/assets/images/pe.png" alt="pedicure icone" />
                         <div className={` d-flex flex-column align-items-center  ${styles.divTxtColorido2}`}>
                             <h2 className={styles.h2ComP}>

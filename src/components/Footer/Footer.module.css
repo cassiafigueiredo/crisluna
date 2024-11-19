@@ -1,0 +1,41 @@
+.containerFooter {
+    height: 100vh;
+    background-color: black;
+}
+
+.textos {
+    color: white;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.conhecerEspaço{
+    font-size: 50px;
+    font-family: var(--fontedestaque);
+    font-weight: bold;
+}
+
+.horarioFuncionamento {
+    
+    font-size: 40px;
+}
+
+.endereço {
+    font-size: 28px;
+}
+
+.divHorarios {
+    margin-top: 100px;
+}
+
+.diasFuncionamento {
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+
+.crisLunaFoto {
+    height: 280px;
+    width: 170px;
+    border-radius: 100%;
+}

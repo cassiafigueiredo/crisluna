@@ -1,12 +1,44 @@
+
+
 .h1Diferenciais {
     background-color: var(--rosapink);
-    font-family: var(--fontenavbar);
-    padding-top: 70px;
-    font-size: 70px;
+    font-family: var(--fontedestaque);
+    font-weight:500;
+    padding-top: 100px;
+    font-size: 55px;
     margin: 0;
 }
 
 .diferenciaisContainer {
     background-color: var(--rosapink);
-    height: 100vh;
+    height: 1000px;
 }
+
+.imgDiferenciais {
+    width: 900px;
+    height: 500px;
+    border-radius: 100%;
+}
+
+.h2Diferenciais {
+    font-family: var(--fontetitulo);
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+.pDiferenciais {
+    width: 250px;
+    letter-spacing: 1.2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

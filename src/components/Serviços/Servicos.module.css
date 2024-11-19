@@ -10,17 +10,21 @@
     font-size: 70px;
 }
 
+
+/*todas as imagens da div*/
 .imgServicos {
     margin-top: 20px;
     width: 200px;
     height: 200px;
 }
+
 .h2SemP {
     font-size: 50px;
     font-family: var(--fontedestaque);
     font-weight: bold;
     color: var(--rosapink);
     margin-top: 100px;
+    letter-spacing: 2px;
 }
 
 .precoRosa {
@@ -29,7 +33,14 @@
     font-weight: bold;
     color: var(--rosapink);
     font-size: 35px;
+    letter-spacing: 2px;
 }
+
+
+
+
+
+
 
 
 .h2ComP {
@@ -37,6 +48,7 @@
     padding-top: 10px;
     color: white;
     font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .h2ComP2 {
@@ -44,6 +56,7 @@
     padding-top: 8px;
     color: white;
     font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .precoBranco {
@@ -51,29 +64,35 @@
     font-family: var(--fontetitulo);
     font-weight: bold;
     font-size: 35px;
+    letter-spacing: 2px;
 
 }
 
 .paragrafoRosa {
     width: 300px;
+
 }
 
 .divTxtColorido {
-    height: 350px;
+    height: 400px;
     padding: 15px;
     color: white;
     margin-top: 50px;
+    margin-bottom: 150px;
     background-color: var(--rosapink);
     border-radius: 50px;
+    letter-spacing: 1px;
 }
 
 .divTxtColorido2 {
-    height: 350px;
+    height: 400px;
     padding: 10px;
     padding-left: 17px;
     padding-right: 17px;
     color: white;
     margin-top: 50px;
+    margin-bottom: 150px;
     background-color: var(--rosapink);
     border-radius: 50px;
+    letter-spacing: 1px;
 }

@@ -1,0 +1,22 @@
+.h1Depoimentos {
+    margin-top: 130px;
+    margin-bottom: 150px;
+    font-family: var(--fontedestaque);
+    font-size: 60px;
+    letter-spacing: 1.2px;
+}
+
+.h2Depoimentos{
+    font-family: var(--fontetitulo);
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.pDepoimentos {
+    margin-top: 50px;
+    width: 250px
+}
+
+.imgDepoimento {
+    width: 250px;
+}
