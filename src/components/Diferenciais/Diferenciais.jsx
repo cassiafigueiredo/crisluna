@@ -10,7 +10,7 @@ function  Diferenciais() {
         
         <div className={`grid ${styles.diferenciaisContainer}`}>
             <div className='row row-cols-2'>
-                <div className="g-col-6 mt-5 d-flex flex-column align-items-center text-center">
+                <div className="col-6 col-sm-12 mt-5 d-flex flex-column align-items-center text-center">
                     <img className={styles.imgDiferenciais} src="./src/assets/images/materiais.png" alt="manicure icone" />
                      <div className={`d-flex flex-column align-items-center `}>
                         <h2 className={styles.h2Diferenciais}>
@@ -21,7 +21,7 @@ function  Diferenciais() {
                         </p>
                     </div>
                 </div>
-                <div className="g-col-6 mt-5 d-flex flex-column align-items-center  text-center">
+                <div className="col-6 col-sm-12 mt-5 d-flex flex-column align-items-center  text-center">
                     <img className={styles.imgDiferenciais} src="./src/assets/images/cuidado-pes.png" alt="pedicure icone" />
                         <div className={` d-flex flex-column align-items-center`}>
                             <h2 className={styles.h2Diferenciais}>

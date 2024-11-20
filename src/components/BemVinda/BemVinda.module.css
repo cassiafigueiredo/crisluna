@@ -39,3 +39,33 @@ p {
     border: black;
     border-radius: 5px;
 }
+
+
+
+@media (max-width: 1400px) {
+    .imgBemVinda {
+        width: 300px;
+        height: 150px;
+        margin-right: 0px;
+    }
+
+    .containerBemVinda {
+        height: 150vh;
+    }
+    
+    .elementos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .txtBtn {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+      
+}
+
